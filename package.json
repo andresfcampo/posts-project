@@ -1,0 +1,30 @@
+{
+  "name": "posts-app",
+  "version": "0.0.0",
+  "description": "this is a sample app for express, hbs and mongoose",
+  "main": "index.js",
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "posts",
+    "express",
+    "hbs",
+    "mongoose"
+  ],
+  "author": "el mehdi",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "hbs": "^4.2.0",
+    "mongoose": "^6.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
